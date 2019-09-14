@@ -9,14 +9,14 @@
  */
 
 // 获取图片大小
-list($width, $height, $type) = getimagesize(__DIR__ . 'v2ex_600721/images/bg.png');
+list($width, $height, $type) = getimagesize(__DIR__ . '/v2ex_600721/images/bg.png');
 
 // 文字内容设定
 $text    = "钢板卡号：4040 2333 114 514";
 
 // 加载资源
 $font    = __DIR__ . '/v2ex_600721/fonts/mono.ttf';
-$card    = imagecreatefrompng(__DIR__ . 'v2ex_600721/images/bg.png');
+$card    = imagecreatefrompng(__DIR__ . '/v2ex_600721/images/bg.png');
 $image   = imagecreatetruecolor($width, $height);
 $bgColor = imagecolorallocatealpha($image, 0, 0, 0, 127);
 $white   = imagecolorallocate($image, 255, 255, 255);
