@@ -19,6 +19,9 @@ table td#nav {
   color: #FFF;
   font-weight: 400;
 }
+#blst > tr:nth-child(1):hover {
+  background: rgba(0,173,255,0) ! important;
+}
 table td#nav * {
   color: #FFF ! important;
 }
@@ -49,5 +52,8 @@ tr#auth, tr#auth:hover, tr#auth:active {
   line-height: 64px;
 }
 span[data-btn]:hover {
-  background: rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.0);
+}
+#nav span[data-btn] {
+  margin-left: 12px;
 }
