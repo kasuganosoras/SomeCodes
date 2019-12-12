@@ -1,0 +1,53 @@
+body {
+  font-weight: 100 ! important;
+  background: #F1F1F1;
+}
+#dlst {
+  width: 60vw;
+  min-height: 100vh;
+  margin: 0 auto;
+  box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+  margin-top: 64px;
+  margin-bottom: 64px;
+  background: #FFF;
+}
+table td#nav {
+  padding: 64px 20px 20px 20px;
+  font-size: 32px;
+  border-bottom: 0px;
+  background: rgba(0,173,255,0.85);
+  color: #FFF;
+  font-weight: 400;
+}
+table td#nav * {
+  color: #FFF ! important;
+}
+span#nvp {
+  font-weight: 100 ! important;
+}
+table tr.tbh td {
+  background: rgba(0,0,0,0.75);
+  color: #FFF;
+  font-weight: 400;
+  border-top: 0px;
+  padding: 6px 12px 4px 12px;
+}
+table td {
+  padding: 6px 8px 4px 8px;
+  border: 0px;
+}
+table tr:active, table tr:hover {
+  background: rgba(0,0,0,0.08);
+}
+tr:nth-child(odd) {
+  background: #FFF;
+}
+tr:nth-child(even) {
+  background: rgba(0,0,0,0.05);
+}
+tr#auth, tr#auth:hover, tr#auth:active {
+  line-height: 64px;
+}
+span[data-btn]:hover {
+  background: rgba(255,255,255,0.1);
+}
